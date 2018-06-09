@@ -1,0 +1,26 @@
+INP
+STA a
+STA count
+STA c
+INP
+STA b
+loop LDA count
+LDA c
+ADD b
+STA c
+LDA count
+ADD step
+STA count
+LDA c
+OUT
+BRP endloop
+BRA loop
+finish HLT
+endloop BRA a
+
+step DAT 1
+a DAT
+b DAT
+c DAT
+count DAT
+zero DAT

@@ -1,0 +1,7 @@
+Player 1
+Name: Jakqwe Ogdugdug
+Type: Wizard
+
+Player 2
+Name: Xenum Hulpolghu
+Type: Knight
